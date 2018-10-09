@@ -8,7 +8,7 @@ string instructions[100]; //save the instructios
 int mem[5]; // simulated the memory
 int reg[10]; //simulated the register
 int clockcycle=0; // simulated the clock cycle
-ofstream fout("branchResult.txt");
+ofstream fout("Result.txt");
 
 ///deal with hazard
 bool lwhz=false;
